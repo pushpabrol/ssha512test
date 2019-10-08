@@ -14,7 +14,7 @@ function createSsha512Hash( password, salt) {
 
 /**
  * 
- * @param {String} passwd   The actual password in the RFC2307 format 
+ * @param {String} passwd   The actual password ( plain text) 
  * @param {Strin} hash  The actual hash in the RFC2307 format  
  * @return {boolean} true if password matches
  */
