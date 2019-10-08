@@ -1,0 +1,15 @@
+{
+  "name": "passwordwork",
+  "version": "1.0.0",
+  "description": "A sample showing how the password hashing works without the salt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "password-hasher": "^1.0.1"
+  }
+}
